@@ -51,6 +51,14 @@ Otras formas de validar:
 ```bash
 sha256sum otelcol-contrib_0.153.0_linux_amd64.rpm
 ```
+
+Despues modificaremos el archivo para cambiar el la huella intencionalmente:
+
+```bash
+echo "cambio de prueba" >> otelcol-contrib_0.153.0_linux_amd64.rpm
+```
+
+
 Validar nuevamente:
 
 ```bash
